@@ -67,4 +67,13 @@ docker-fullstack-learning/
 ```
 
 
+All services communicate through a Docker network.
 
+🚀 Getting Started
+Prerequisites
+
+Docker installed
+
+Docker Compose installed
+
+Node.js (for local development only)
