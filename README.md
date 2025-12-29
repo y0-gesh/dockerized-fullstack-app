@@ -77,3 +77,97 @@ Docker installed
 Docker Compose installed
 
 Node.js (for local development only)
+▶️ Running the Application (Docker Compose)
+1. Clone the repository
+git clone https://github.com/your-username/docker-fullstack-learning.git
+cd docker-fullstack-learning
+
+2. Create .env file
+MONGO_INITDB_ROOT_USERNAME=admin
+MONGO_INITDB_ROOT_PASSWORD=securepassword
+MONGO_DB_NAME=appdb
+
+
+⚠️ Do not commit .env files to GitHub
+
+3. Start all services
+docker-compose up -d
+
+4. Access the Services
+Service	URL
+Frontend	http://localhost:3000
+
+Backend API	http://localhost:5000
+
+Mongo Express	http://localhost:8081
+
+MongoDB	localhost:27017
+5. Stop the services
+docker-compose down
+
+📖 What I Am Learning
+
+Docker images and containers
+
+Dockerfile best practices
+
+Docker networks
+
+Environment variables in containers
+
+Multi-container applications
+
+Service dependency management
+
+Secure credential handling
+
+MongoDB container initialization
+
+Debugging containerized applications
+
+⚠️ Best Practices Followed
+
+No hard-coded credentials
+
+Environment variables for secrets
+
+Isolated services per container
+
+Docker networking for communication
+
+Clean project structure
+
+Git-friendly setup
+
+📈 Learning Progress
+
+ Docker Basics
+
+ Containerizing MongoDB
+
+ Mongo Express Setup
+
+ Docker Networking
+
+ Dockerizing Node.js Backend
+
+ Frontend Containerization
+
+ Production-ready Docker Compose
+
+ CI/CD Integration
+
+🔒 Security Notes
+
+Credentials are stored in .env files
+
+.env files are excluded using .gitignore
+
+MongoDB is not exposed publicly
+
+This setup is for learning and development only
+
+🤝 Contribution
+
+This is a personal learning repository.
+Suggestions and improvements are welcome via issues or pull requests.
